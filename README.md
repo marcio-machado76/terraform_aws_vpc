@@ -1,4 +1,5 @@
 # terraform_aws_vpc
+- [x] Status:  em desenvolvimento, passando por melhorias.
 ###
 ### Módulo para criar uma VPC na AWS composta dos recursos, Vpc, subnets (publicas e privadas), network Acls, route tables e internet gateway. Para utilizar este módulo é necessário os seguintes arquivos especificados logo abaixo:
 
