@@ -1,3 +1,5 @@
+// Subnets públicas e privadas
+
 data "aws_availability_zones" "available" {
   state = "available"
 }
