@@ -1,6 +1,5 @@
 #Network Acl
 # Acl Public
-
 resource "aws_network_acl" "public" {
   vpc_id     = var.vpc
   subnet_ids = aws_subnet.public.*.id
