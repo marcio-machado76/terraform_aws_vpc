@@ -95,6 +95,20 @@ variable "nacl" {
 <summary>outputs.tf - Outputs de recursos que serão utilizados em outros módulos.</summary>
 
 ```hcl
+output "vpc" {
+  description = "Idendificador da VPC"
+  value       = module.network.vpc
+}
+
+output "public_subnet" {
+  description = "Subnet public "
+  value       = module.network.public_subnet
+}
+
+output "private_subnet" {
+  description = "Subnet private "
+  value       = module.network.private_subnet
+}
 
 ```
 
